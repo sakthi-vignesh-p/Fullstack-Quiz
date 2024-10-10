@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <link rel="stylesheet" href="../common.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    
+  <div id="container">
+
+    <div id="register-cont">
+        <div id="register">
+            <h1>Register</h1>
+            <form action="" id="register-form">
+                <div class="box">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter name" required="true">
+                     <div class="err"></div>
+                </div>
+                <div class="box">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" required="true">
+                     <div class="err"></div>
+                </div>
+                <div class="box">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="password" name="confirmpassword" id="confirm-password" placeholder="Confirm password" required="true">
+                    <div class="err"></div>
+                </div>
+                <div class="btn">
+                    <button type="submit">Register</button>
+                    <p>Already in ?</p><p onclick="" class="change-btn">Login</p>
+                </div>
+            </form>
+        </div>
+      </div>
+    
+  <div id="side-bar">
+      <h2>Welcome !</h2>
+      <button id="change-btn">Login</button>
+    </div>
+
+  <div id="login">
+     <h1>Login</h1>      
+   
+     <form action="" id="login-form">
+        <div class="box">
+            <label for="login-name">Name</label>
+            <input type="text" id="login-name" name="name" placeholder="Enter name" required="true" >
+            <div class="err"></div>
+        </div>
+           <div class="box">
+            <label for="login-password">Password</label>
+            <input type="text" id="login-password" name="password" placeholder="Enter password" required="true">
+             <div class="err"></div>
+        </div>
+        <div class="btn">
+            <button type="submit">Login</button>
+            <p>New ?</p>
+            <p onclick="" class="change-btn">Register</p>
+        </div>
+     </form>
+    </div>
+  </div>
+</body>
+</html>

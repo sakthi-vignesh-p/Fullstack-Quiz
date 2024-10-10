@@ -1,0 +1,43 @@
+h1
+{
+    margin: 0;
+    padding: 0;
+    margin-left:5px;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+
+#total-cont
+{
+   display: grid;
+   grid-template-columns: 1fr; 
+   margin-top: 30px;
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 20px
+}
+
+#total-cont p
+{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:400px){
+    
+    #total-cont p{
+            font-size: medium;
+            font-family: Arial, sans-serif;
+    }
+    #total-cont h1{
+        font-weight: bold;
+        font-size: x-large;
+    }
+}

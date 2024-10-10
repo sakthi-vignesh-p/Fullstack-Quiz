@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="demo.css">
+    <script src="common.js" defer></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+    <div id="navbar-cont">
+       
+       </div>
+   <!-- For Mobiles -->
+
+   <div id="nav-popup-cont">
+     
+    </div>
+
+
+   <!-- //questions -->
+   <!-- <h2 style="text-align: center;">Select Question Type</h2> -->
+   <div id="tot-cont">
+        <div id="question-types">
+             <p title="General Knowladge">General</p>
+             <p title="Maths Problems">Maths</p>
+             <p title="Data Structures and Algorithoms">DSA</p>
+             <p title="Social Questions">Social</p>
+             <hr>
+         
+            <div class="answerd-and-timer">
+                <span id="answerd-questions">Answerd Questions : 0</span>
+                <span id="correct-answers">Correct Answers : 0</span>
+                <span id="wrong-answers">Wrong Answers : 0</span>
+                <hr>
+                <h2 id="rank">Rank : Bronze</h2>
+            </div>
+            
+        </div>
+     
+        <div id="questions-cont">
+          <div id="text">
+                <h3>Easy 20 General Questions</h3>
+                <select name="" id="filter-input">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                    <option value="veryHard">VeryHard</option>
+                </select>
+            </div>
+
+          <div id="questions">
+                    
+          </div>
+        </div>
+        <div id="levels">
+           
+            <div class="score">
+               <p >Correct Answers</p>
+               <p >Incorrect Answers</p>
+            </div>
+            <hr>
+            <div class="answer-checker">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <p>8</p>
+                <p>9</p>
+                <p>10</p>
+                <p>11</p>
+                <p>12</p>
+                <p>13</p>
+                <p>14</p>
+                <p>15</p>
+                <p>16</p>
+                <p>17</p>
+                <p>18</p>
+                <p>19</p>
+                <p>20</p>
+            </div>
+            <hr>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <!-- popup message -->
+
+    <div id="popup-cont">
+        <div id="popup-msg">
+            <h2 id="popup-heading">Answer All</h2>
+            <p id="popup-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatem inventore temporibus sequi, perferendis natus, ipsa obcaecati laudantium culpa nemo repudiandae dolores amet? Voluptatibus natus non possimus illum quod maiores.</p>
+            <button onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
+  <!-- overlay  -->
+    <div id="overlay">
+        
+    </div>
+</body>
+</html> 

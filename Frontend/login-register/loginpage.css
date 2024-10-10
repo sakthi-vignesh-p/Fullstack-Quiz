@@ -1,0 +1,129 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.err
+{
+    color: red;
+}
+
+#login
+{
+    display: none;
+}
+
+.change-btn
+{
+    text-decoration: underline;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+    border-style: solid; 
+    height: fit-content;
+    width: fit-content;
+    margin-top: 60px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px black;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.box input
+{
+    padding: 5px;
+    width: 300px;
+}
+
+.box input:focus
+{
+   outline: 0;
+}
+
+.btn button
+{
+   padding: 5px;
+   width: 200px;
+   background-color: red;
+   border-radius: 50em;
+   box-shadow: 4px 4px 10px black;
+   color: white;
+   border: none;
+}
+
+.btn button:hover
+{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btn
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#register,#login
+{
+    padding: 10px;
+}
+
+h1{text-align: center;}
+
+#side-bar
+{
+    padding: 10px;
+    background-color: rgb(9, 26, 31);
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#change-btn
+{
+    padding: 20px;
+    border-radius: 50em;
+    background-color: red;
+    color: white;
+    box-shadow: 4px 4px 10px black;
+    border: none;
+}
+
+#change-btn:hover
+{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+#side-bar h2
+{
+   margin-top: 80px;
+}
+
+
+/* for mobiles */
+@media (max-width:400px)
+{
+    #side-bar
+    {
+        display: none;
+    }
+    .box input
+    {
+         padding: 10px;
+         border-radius: 5px;
+         font-size: 15px
+    };
+}
