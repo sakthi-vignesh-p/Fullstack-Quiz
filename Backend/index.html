@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+   
+    <div id="tot-cont">
+         <div id="cont">
+            <form action="" id="form">
+                <div class="box">
+                    <label for="type">Type</label>
+                    <input type="text" id="type" placeholder="Enter question type">
+                </div>
+                <div class="box">
+                    <label for="question">Question</label>
+                    <input type="text" id="question" placeholder="Enter question">
+                </div>
+                <div class="box">
+                    <label for="options">Options</label>
+                  <input type="text" class="options" id="A" placeholder="A"> 
+                  <input type="text" class="options" id="B" placeholder="B">
+                  <input type="text" class="options" id="C" placeholder="C">
+                  <input type="text" class="options" id="D" placeholder="D">
+                </div>
+                <div class="box">
+                    <label for="answer">Answer</label>
+                    <input type="text" id="answer">
+                </div>
+                <div class="box">
+                   <label for="difficulty">Difficulty</label>
+                   <input type="text" id="difficulty" placeholder="Enter difficulty">
+                </div>
+             </form>
+             <div class="btn">
+                <button id="submit" onclick="setData()">Submit</button>
+             </div>  
+          </div>
+         
+         </div>
+  
+</body>
+</html>
+

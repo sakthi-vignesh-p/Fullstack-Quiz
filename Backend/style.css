@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}  
+
+#tot-cont
+{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 40px;
+}
+
+
+form
+{
+    margin: 10px;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.box input
+{
+    padding: 8px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.box input:focus
+{
+    outline: 0;
+}
+
+
+#submit
+{
+    width: 100%;
+    padding: 8px;
+    border-radius: 50em;
+    border: none;
+    background-color: red;
+    color:white;
+   box-shadow: 4px 4px 10px black;
+}
+
+.btn
+{ 
+    margin:10px;
+}
